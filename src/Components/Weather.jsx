@@ -1,14 +1,17 @@
-import React from 'react'
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-
+import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 const Weather = () => {
-  return (
-    <div>
+    const [weatherData, setWeatherData] = useState(null);
+    
+useEffect(()=>{},[])
+    return <div>
       
-    </div>
-  )
-}
+              {/* Display weather data here */}
 
-export default Weather
+
+  </div>;
+};
+
+export default Weather;
