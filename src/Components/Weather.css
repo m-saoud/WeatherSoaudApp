@@ -1,0 +1,22 @@
+.weather-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .weather-icon {
+    font-size: 64px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  
