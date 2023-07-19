@@ -21,7 +21,7 @@ const Weather = () => {
       {weatherData ? (
         <div>
           <h2>Weather in {weatherData.name}</h2>
-          <p>Temperature: {weatherData.main.temp}°C</p>
+          <p>Temperature:{ Math.round (weatherData.main.temp -273.15)}°C</p>
           <p>Description: {weatherData.weather[0].description}</p>
         </div>
       ) : (
