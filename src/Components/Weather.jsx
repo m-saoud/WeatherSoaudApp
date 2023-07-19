@@ -6,10 +6,10 @@ const Weather = () => {
 
   useEffect(() => {
     const API_KEY = "7ec2036af2aa49fb22c35b29bd003d55";
-    const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=${API_KEY}`;
+    const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=${API_KEY}`
 
     axios
-      .get(API_KEY)
+      .get(API_URL)
       .then((resp) => {
         setWeatherData(resp.data);
       })
