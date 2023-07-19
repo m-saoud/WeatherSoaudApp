@@ -1,19 +1,25 @@
 .weather-container {
     text-align: center;
     padding: 20px;
-  }
+    border: 1px solid ;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
   
   .weather-icon {
     font-size: 64px;
-    margin-bottom: 10px;
   }
   
   h2 {
-    margin-bottom: 5px;
+    margin-bottom: 50px;
+
   }
   
   p {
-    margin: 0;
+    margin: 30px;
   }
   
   p:not(:last-child) {
